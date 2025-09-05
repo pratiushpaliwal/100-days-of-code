@@ -1,20 +1,29 @@
 /*
-Write a program to convert temperature from Celsius to Fahrenheit.
+Write a program to calculate the area and perimeter of a rectangle given its length and breadth.
 */
 #include <stdio.h>
 
 int main() {
-    float celsius, fahrenheit;
+    float length, breadth, area, perimeter;
 
-    printf("Enter temperature in Celsius: ");
-    scanf("%f", &celsius);
+ 
+    printf("Enter the length of the rectangle: ");
+    scanf("%f", &length);
 
-    fahrenheit = (celsius * 9 / 5) + 32;
+    printf("Enter the breadth of the rectangle: ");
+    scanf("%f", &breadth);
 
-    printf("Temperature in Fahrenheit: %.2f\n", fahrenheit);
+  
+    area = length * breadth;
+    perimeter = 2 * (length + breadth);
+
+    printf("Area of the rectangle: %.2f\n", area);
+    printf("Perimeter of the rectangle: %.2f\n", perimeter);
 
     return 0;
 }
+
+
 
 
 
