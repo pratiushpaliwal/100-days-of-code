@@ -3,7 +3,6 @@ Write a program to calculate the area and circumference of a circle given its ra
 */
 #include <stdio.h>
 #define PI 3.14159  
-
 int main() {
     float radius, area, circumference;
 
