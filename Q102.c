@@ -36,7 +36,7 @@ int findCeilIndex(int arr[], int n, int x) {
 
         if (arr[mid] >= x) {
             result = mid;
-            high = mid - 1; // look for first occurrence on left side
+            high = mid - 1;
         } else {
             low = mid + 1;
         }
@@ -55,3 +55,4 @@ int main() {
 
     return 0;
 }
+
