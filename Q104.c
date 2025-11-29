@@ -36,3 +36,8 @@ int main() {
             printf("%d\n", x);
             return 0;
         }
+    }
+
+    printf("-1\n");
+    return 0;
+}
